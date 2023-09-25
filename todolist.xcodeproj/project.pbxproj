@@ -11,9 +11,7 @@
 		E3A5D52B2AB0FCF000D20DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5D52A2AB0FCF000D20DF8 /* ContentView.swift */; };
 		E3A5D52D2AB0FCF000D20DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */; };
 		E3A5D5302AB0FCF000D20DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5D52F2AB0FCF000D20DF8 /* Preview Assets.xcassets */; };
-		E3F234632AB38FEA00AAAC2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F234622AB38FEA00AAAC2F /* LoginView.swift */; };
 		E3F234662AB3907300AAAC2F /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F234652AB3907300AAAC2F /* AuthViewModel.swift */; };
-		E3F234682AB3913700AAAC2F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F234672AB3913700AAAC2F /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +20,7 @@
 		E3A5D52A2AB0FCF000D20DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A5D52F2AB0FCF000D20DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E3F234622AB38FEA00AAAC2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E3F234652AB3907300AAAC2F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		E3F234672AB3913700AAAC2F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				E3A5D5282AB0FCF000D20DF8 /* todolistApp.swift */,
-				E3F234672AB3913700AAAC2F /* InputView.swift */,
-				E3F234612AB38FD200AAAC2F /* Authentication */,
 				E3F234642AB3904A00AAAC2F /* ViewModel */,
 				E3A5D52A2AB0FCF000D20DF8 /* ContentView.swift */,
 				E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */,
@@ -74,14 +68,6 @@
 				E3A5D52F2AB0FCF000D20DF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E3F234612AB38FD200AAAC2F /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				E3F234622AB38FEA00AAAC2F /* LoginView.swift */,
-			);
-			path = Authentication;
 			sourceTree = "<group>";
 		};
 		E3F234642AB3904A00AAAC2F /* ViewModel */ = {
@@ -163,8 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F234662AB3907300AAAC2F /* AuthViewModel.swift in Sources */,
-				E3F234632AB38FEA00AAAC2F /* LoginView.swift in Sources */,
-				E3F234682AB3913700AAAC2F /* InputView.swift in Sources */,
 				E3A5D52B2AB0FCF000D20DF8 /* ContentView.swift in Sources */,
 				E3A5D5292AB0FCF000D20DF8 /* todolistApp.swift in Sources */,
 			);
