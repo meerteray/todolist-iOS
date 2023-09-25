@@ -12,6 +12,7 @@
 		E3A5D52D2AB0FCF000D20DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */; };
 		E3A5D5302AB0FCF000D20DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5D52F2AB0FCF000D20DF8 /* Preview Assets.xcassets */; };
 		E3B18E0B2AC22CBB00B3EB82 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B18E0A2AC22CBB00B3EB82 /* LoginView.swift */; };
+		E3B18E0D2AC230D900B3EB82 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B18E0C2AC230D900B3EB82 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A5D52F2AB0FCF000D20DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3B18E0A2AC22CBB00B3EB82 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E3B18E0C2AC230D900B3EB82 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InputView.swift; path = ../InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				E3A5D5282AB0FCF000D20DF8 /* todolistApp.swift */,
+				E3B18E0C2AC230D900B3EB82 /* InputView.swift */,
 				E305A9BD2AC22C4C00190C35 /* Auth */,
 				E3F234642AB3904A00AAAC2F /* ViewModel */,
 				E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B18E0B2AC22CBB00B3EB82 /* LoginView.swift in Sources */,
+				E3B18E0D2AC230D900B3EB82 /* InputView.swift in Sources */,
 				E3A5D52B2AB0FCF000D20DF8 /* ContentView.swift in Sources */,
 				E3A5D5292AB0FCF000D20DF8 /* todolistApp.swift in Sources */,
 			);
