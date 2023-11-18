@@ -10,6 +10,7 @@
 		E37A88B52B092AB100ADC7C5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B42B092AB100ADC7C5 /* FirebaseAuth */; };
 		E37A88B72B092AB100ADC7C5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B62B092AB100ADC7C5 /* FirebaseFirestore */; };
 		E37A88B92B092AB100ADC7C5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B82B092AB100ADC7C5 /* FirebaseFirestoreSwift */; };
+		E37A88BB2B09302D00ADC7C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37A88BA2B09302D00ADC7C5 /* GoogleService-Info.plist */; };
 		E3A5D5292AB0FCF000D20DF8 /* todolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5D5282AB0FCF000D20DF8 /* todolistApp.swift */; };
 		E3A5D52B2AB0FCF000D20DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5D52A2AB0FCF000D20DF8 /* ContentView.swift */; };
 		E3A5D52D2AB0FCF000D20DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E37A88BA2B09302D00ADC7C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3A5D5252AB0FCF000D20DF8 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A5D5282AB0FCF000D20DF8 /* todolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistApp.swift; sourceTree = "<group>"; };
 		E3A5D52A2AB0FCF000D20DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		E3A5D5272AB0FCF000D20DF8 /* todolist */ = {
 			isa = PBXGroup;
 			children = (
+				E37A88BA2B09302D00ADC7C5 /* GoogleService-Info.plist */,
 				E3A5D5282AB0FCF000D20DF8 /* todolistApp.swift */,
 				E3F234642AB3904A00AAAC2F /* ViewModel */,
 				E3A5D52C2AB0FCF000D20DF8 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				E3A5D5302AB0FCF000D20DF8 /* Preview Assets.xcassets in Resources */,
 				E3A5D52D2AB0FCF000D20DF8 /* Assets.xcassets in Resources */,
+				E37A88BB2B09302D00ADC7C5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,8 +327,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
