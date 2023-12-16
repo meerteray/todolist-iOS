@@ -11,9 +11,15 @@ struct LoginView: View {
                           subtitle: "Get things done",
                           angle: 15,
                           background: .pink)
-                    
-                // Login Form
+            
+               
+               
+               
                 Form{
+                    if !viewModel.errorMessage.isEmpty {
+                   Text(viewModel.errorMessage)
+                       .foregroundColor(Color.red)
+                }
                     TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
