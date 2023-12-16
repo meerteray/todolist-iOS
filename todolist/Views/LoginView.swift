@@ -18,20 +18,20 @@ struct LoginView: View {
                 Form{
                     TextField("Email Address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
 
-                    TLButton(title: "Log In",
-                             background: .blue
+                    TLButton(
+                        title: "Log In",
+                        background: .blue
                     ) {
                         // Attempt log in
                     }
                     .padding()
-                    
                 }
                 .offset(y: -50)
                
-                
                 // Create Account
                 VStack {
                    Text("New around here ?")
