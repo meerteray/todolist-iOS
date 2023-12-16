@@ -4,7 +4,10 @@ struct RegisterView: View {
     var body: some View {
         VStack {
             // Header
-            HeaderView()
+            HeaderView(title: "Register",
+                       subtitle: "Get things done",
+                       angle: 15,
+                       background: .pink)
         }
     }
 }
