@@ -14,9 +14,9 @@ struct LoginView: View {
                 // Login Form
                 Form{
                     TextField("Email Address", text: $email)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    SecureField("Password", text: $email)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(DefaultTextFieldStyle())
 
                     Button {
                  // Attempt log in
@@ -30,13 +30,13 @@ struct LoginView: View {
                                 .bold()
                         }
                     }
-
+                    .padding()
+                    
                 }
                 
                 // Create Account
                 VStack {
-                   Text("New around here?")
-
+                   Text("New around here ?")
                     NavigationLink("Create An Account ",
                                    destination: RegisterView())
                     
