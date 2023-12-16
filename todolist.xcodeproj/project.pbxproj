@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E35479572B2DA75000501C19 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35479562B2DA75000501C19 /* HeaderView.swift */; };
 		E37A88B52B092AB100ADC7C5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B42B092AB100ADC7C5 /* FirebaseAuth */; };
 		E37A88B72B092AB100ADC7C5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B62B092AB100ADC7C5 /* FirebaseFirestore */; };
 		E37A88B92B092AB100ADC7C5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E37A88B82B092AB100ADC7C5 /* FirebaseFirestoreSwift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E35479562B2DA75000501C19 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E37A88BA2B09302D00ADC7C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E37A88C02B0936DD00ADC7C5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E37A88C22B0937EC00ADC7C5 /* ToDoListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemsView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E37A88C62B09385600ADC7C5 /* LoginView.swift */,
 				E37A88C82B09387500ADC7C5 /* RegisterView.swift */,
 				E37A88C22B0937EC00ADC7C5 /* ToDoListItemsView.swift */,
+				E35479562B2DA75000501C19 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E37A88C72B09385600ADC7C5 /* LoginView.swift in Sources */,
+				E35479572B2DA75000501C19 /* HeaderView.swift in Sources */,
 				E3A5D52B2AB0FCF000D20DF8 /* MainView.swift in Sources */,
 				E3DDA4222B0A734500CE1395 /* RegisterViewViewModel.swift in Sources */,
 				E3DDA4182B0A727400CE1395 /* MainViewViewModel.swift in Sources */,
