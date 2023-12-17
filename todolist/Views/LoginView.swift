@@ -12,9 +12,6 @@ struct LoginView: View {
                           angle: 15,
                           background: .pink)
             
-               
-               
-               
                 Form{
                     if !viewModel.errorMessage.isEmpty {
                    Text(viewModel.errorMessage)
